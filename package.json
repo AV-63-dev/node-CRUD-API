@@ -1,0 +1,30 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "license": "ISC",
+  "author": "",
+  "description": "",
+  "keywords": [],
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "webpack && node build/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "clean-webpack-plugin": "^4.0.0",
+    "nodemon": "^2.0.20",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AV-63-dev/node-CRUD-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AV-63-dev/node-CRUD-API/issues"
+  },
+  "homepage": "https://github.com/AV-63-dev/node-CRUD-API#readme"
+}
