@@ -7,8 +7,12 @@
   "keywords": [],
   "main": "build/index.js",
   "scripts": {
-    "dev": "nodemon",
-    "start": "webpack && node build/index.js"
+    "start:dev": "nodemon",
+    "start:prod": "webpack && node build/index.js",
+    "start:multi": "nodemon --cluster"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
